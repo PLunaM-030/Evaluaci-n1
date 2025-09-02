@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_PILM_HOLAMUNDOO"/>
+        <attribute name="authors" value="pawlu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-25 03:53:22 PM"/>
+        <attribute name="created" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDgtMjU7MDM6MDg6MzkgUE07Mjg4OA=="/>
+        <attribute name="edited" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDgtMjU7MDM6NTM6MjIgUE07MTsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Son.. FUNDAMENTOS DE PROGRAMACI'ON&quot;" newline="True"/>
+            <output expression="&quot;M: 'Hello, my world.'&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

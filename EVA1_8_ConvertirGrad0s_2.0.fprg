@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_8_ConvertirGrad0s"/>
+        <attribute name="authors" value="pawlu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 09:59:14 PM"/>
+        <attribute name="created" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDg6NDE6NDIgUE07Mjg3OQ=="/>
+        <attribute name="edited" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDk6NTk6MTQgUE07MjsyOTk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Farenheit, Celsius" type="Real" array="False" size=""/>
+            <output expression="&quot;Hey!, terminemos el trabajo.. dame una cantidad en grados Farenheit!&quot;" newline="True"/>
+            <input variable="Farenheit"/>
+            <output expression="&quot;En realidad, ya que necesito Celsius... debo restarle 32 al valor de Farenheit, multiplicarle por 5 y dividirle por 9.. que ser:...&quot;" newline="False"/>
+            <assign variable="Celsius" expression="((Farenheit - 32)*5)/9"/>
+            <output expression="Celsius" newline="False"/>
+            <output expression="&quot; grados en Celsius&quot;" newline="True"/>
+            <if expression="Celsius &gt;= 100">
+                <then>
+                    <output expression="&quot;Eso parece bastante! el agua hierve!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Celsius &gt; 0 AND celsius &lt; 100">
+                        <then>
+                            <output expression="&quot;Parece que no has pasado de alcances muy altos... aun!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Woah, eso parece bastante helado..&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

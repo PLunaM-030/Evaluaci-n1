@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_8_ConvertirGrad0s"/>
+        <attribute name="authors" value="pawlu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 09:12:43 PM"/>
+        <attribute name="created" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDg6NDE6NDIgUE07Mjg3OQ=="/>
+        <attribute name="edited" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDk6MTI6NDMgUE07MTsyOTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Farenheit" type="Real" array="False" size=""/>
+            <declare name="Celsius" type="Real" array="False" size=""/>
+            <assign variable="Farenheit" expression="212"/>
+            <assign variable="Celsius" expression="((Farenheit - 32)*5)/9"/>
+            <output expression="&quot;He puesto el valor en farenheit de la ebullici'on del agua, y necesito Celsius... debo restarle 32 al valor de Farenheit, multiplicarle por 5 y dividirle por 9.. que ser'ia:...&quot;" newline="False"/>
+            <output expression="Celsius" newline="False"/>
+            <output expression="&quot; grados en Celsius&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

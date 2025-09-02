@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_6_operaciones"/>
+        <attribute name="authors" value="pawlu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 08:41:34 PM"/>
+        <attribute name="created" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDM6MTM6MTEgUE07Mjg2OQ=="/>
+        <attribute name="edited" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDktMDE7MDg6NDE6MzQgUE07MTsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <declare name="P" type="Real" array="False" size=""/>
+            <declare name="Radio" type="Real" array="False" size=""/>
+            <assign variable="P" expression="3.1416"/>
+            <assign variable="Radio" expression="6.3"/>
+            <assign variable="Area" expression="P*Radio*Radio"/>
+            <output expression="&quot;To get the area of a circle, we use square R times Pi&quot;" newline="True"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

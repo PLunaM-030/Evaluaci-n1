@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_P2_Dat0s"/>
+        <attribute name="authors" value="pawlu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 03:29:42 PM"/>
+        <attribute name="created" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDgtMjY7MDM6MjM6MzQgUE07Mjg4MQ=="/>
+        <attribute name="edited" value="cGF3bHU7REVTS1RPUC1GNVJVQzE3OzIwMjUtMDgtMjY7MDM6Mjk6NDIgUE07MTsyOTk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Paulinaaa Itzeel Lunaa Medranoo...&quot;" newline="True"/>
+            <output expression="000" newline="True"/>
+            <output expression="0.0007" newline="True"/>
+            <output expression="false" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
